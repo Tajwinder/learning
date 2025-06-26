@@ -3,6 +3,8 @@ import { Text } from '@medly-components/core';
 import React from 'react';
 import { Props } from './types';
 
+
+console.log('gffgfg');
 export const Dashboard: React.SFC<Props> = ({ isLoading }) => (
     <PageContent isLoading={isLoading}>
         <Text textWeight="Strong" textVariant="body1">
